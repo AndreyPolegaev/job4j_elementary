@@ -7,19 +7,16 @@ package ru.job4j.condition;
 public class Coffe {
     public static int countCup(int count, int n) {
         int sum = 0;
-        int sum2 = 0;
-        int sum3 = 0;
         if (count < n) {
             sum = count;
         }
         if (count == n) {
-            sum2 = count + 1;
+            sum = count + 1;
         }
         if (count > n) {
-            sum3 = count + (count / n);
+            sum = count + (count / n);
         }
-
-        return sum + sum2 + sum3;
+        return sum;
     }
 
     public static void main(String[] args) {
