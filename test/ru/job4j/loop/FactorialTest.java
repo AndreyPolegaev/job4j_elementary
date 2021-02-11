@@ -17,4 +17,10 @@ public class FactorialTest {
         int rsl = Factorial.calc(0);
         Assert.assertThat(rsl, is(1));
     }
+
+    @Test
+    public void whenCalculateFactorialForOneThenOne() {
+        int rsl = Factorial.calc(1);
+        Assert.assertThat(rsl, is(1));
+    }
 }
