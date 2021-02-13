@@ -17,11 +17,13 @@ public class MultiMaxTest {
         int result = MultiMax.max(1, 4, 2);
         Assert.assertEquals(result, 4);
     }
+
     @Test
     public void whenThirdMax() {
         int result = MultiMax.max(1, 1, 20);
         Assert.assertEquals(result, 20);
     }
+
     @Test
     public void whenFiguresIsEquals() {
         int result = MultiMax.max(1, 1, 1);

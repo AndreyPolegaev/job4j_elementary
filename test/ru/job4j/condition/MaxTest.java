@@ -12,6 +12,7 @@ public class MaxTest {
         int out = Max.max(in, in2);
         Assert.assertEquals(expected, out);
     }
+
     @Test
     public void whenMax25To10Then25() {
         int in = 25;
@@ -20,6 +21,7 @@ public class MaxTest {
         int out = Max.max(in, in2);
         Assert.assertEquals(expected, out);
     }
+
     @Test
     public void whenMax10To10Then10() {
         int in = 10;
