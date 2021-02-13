@@ -7,12 +7,25 @@ amount - сумма выданная по кредиту, salary - годово�
 public class Mortgage {
     public static int year(double amount, double salary, double percent) {
         int year = 0;
-        double ostatok = amount + (amount * percent); // остаток суммы крида + % через год
-        while (ostatok > 0) {
-            double dolg = ostatok - salary;
-            ostatok = dolg + (dolg * percent);
+
+        while (amount > 0) {
+            amount = amount + (amount * percent); // долг за 1 год
+            amount = amount - salary; // остаток через год
             year++;
+
+
         }
-        return year;
+        return  year;
+
     }
 }
+
+
+  //  int year = 0;
+//        double ostatok = amount + (amount * percent); // остаток суммы крида + % через год
+//        while (ostatok > 0) {
+//            double dolg = ostatok - salary;
+//            ostatok = dolg + (dolg * percent);
+//            year++;
+//        }
+//        return year;
