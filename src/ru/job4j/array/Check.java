@@ -4,12 +4,10 @@ public class Check {
     public static boolean mono(boolean[] data) {
         boolean rsl = true;
         for (int i = 0; i < data.length; i++) {
-           if (data[i] == data[0]) {
-               continue;
-           } else {
-              rsl = false;
-             }
+            if (data[0] != data[i]) {
+                rsl = false;
+            }
         }
-        return rsl;
+       return rsl;
     }
 }
