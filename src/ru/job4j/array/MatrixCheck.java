@@ -3,6 +3,7 @@ package ru.job4j.array;
 Проверить то, что строка в двухмерном массиве целиком заполнена символом 'X'
 Проверить то, что столбец в двухмерном массиве целиком заполнен символом 'X'
 Вернуть одномерный массив из эелементов диагонали переданного 2-го массива
+Дан массив 5*5. Вернуть true если по вертикали или по горизонтали все Х (сокобан)
  */
 
 public class MatrixCheck {
@@ -32,5 +33,14 @@ public class MatrixCheck {
             arrayResult[i] = board[i][i];
         }
         return arrayResult;
+    }
+    public static boolean isWin(char[][] board) {
+        boolean result = false;
+        if (board[2][2] == 'X') {
+            if (monoHorizontal(board, 2) || monoVertical(board, 2)) {
+                result = true;
+            }
+        }
+        return result;
     }
 }
