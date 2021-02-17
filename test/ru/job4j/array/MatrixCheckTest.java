@@ -66,4 +66,29 @@ public class MatrixCheckTest {
         assertThat(expected, is(true));
 
     }
+
+    @Test
+    public void whenHasMonoVertical() {
+        char[][] input = {
+                {' ', ' ', 'X'},
+                {' ', ' ', 'X'},
+                {' ', ' ', 'X'}
+        };
+        boolean expected = MatrixCheck.monoVertical(input, 2);
+        assertThat(expected, is(true));
+
+    }
+
+    @Test
+    public void whenHasMonoVerticalFourRow() {
+        char[][] input = {
+                {' ', 'X', ' '},
+                {' ', 'X', ' '},
+                {' ', 'X', ' '},
+                {' ', 'X', ' '}
+        };
+        boolean expected = MatrixCheck.monoVertical(input, 1);
+        assertThat(expected, is(true));
+
+    }
 }
