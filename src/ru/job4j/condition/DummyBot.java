@@ -2,7 +2,6 @@ package ru.job4j.condition;
 
 public class DummyBot {
     public static String answer(String question) {
-    //    Решение цепочкой if - else if
         String rsl = "Это ставит меня в тупик. Задайте другой вопрос.";
         if (question.equals("Привет Бот")) {
             rsl = "Привет умник";
@@ -10,7 +9,6 @@ public class DummyBot {
             rsl = "До скорой встречи";
         }
         return rsl;
-
     }
 
         public static void main(String[] args) {

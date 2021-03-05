@@ -1,5 +1,7 @@
 package ru.job4j.array;
-// Поиск byltrcf элемента в 2-мерном массиве
+/**
+ * Поиск byltrcf элемента в 2-мерном массиве
+ */
 public class MatrixFind {
     public static void main(String[] args) {
         int[][] array = {
@@ -13,8 +15,6 @@ public class MatrixFind {
                     System.out.println("Индекс= " + row + " " + cell);
                 }
             }
-
         }
-
     }
 }

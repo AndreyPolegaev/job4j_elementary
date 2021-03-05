@@ -1,6 +1,7 @@
 package ru.job4j.loop;
-// если number простое число (делится на себя и на 1) вернуть true
-
+/**
+ * если number простое число (делится на себя и на 1) вернуть true
+ */
 public class CheckPrimeNumber {
     public static boolean check(int number) {
         boolean prime = number > 1;

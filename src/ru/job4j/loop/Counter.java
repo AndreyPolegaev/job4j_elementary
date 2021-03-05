@@ -9,7 +9,6 @@ public class Counter {
         return rsl;
     }
 
-    // сумма четных чисел в диапазоне
     public static int sumByEven(int start, int finish) {
         int rsl = 0;
         for (int i = start; i <= finish; i++) {

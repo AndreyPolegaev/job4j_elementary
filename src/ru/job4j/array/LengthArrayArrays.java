@@ -1,5 +1,5 @@
 package ru.job4j.array;
-/*
+/**
 Вывести размеры всех подмассивов
  */
 public class LengthArrayArrays {

@@ -1,5 +1,5 @@
 package ru.job4j.array;
-/*
+/**
 Найти минимальный элемент в диапазоне
  */
 public class MinDiapason {

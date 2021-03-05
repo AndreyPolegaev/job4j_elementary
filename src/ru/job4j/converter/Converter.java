@@ -6,18 +6,16 @@ public class Converter {
         int dollar = Converter.rubleToDollar(120);
         System.out.println("140 rubles are " + euro + " euro.");
         System.out.println("120 rubles are " + dollar + " dollars.");
-        //Testing both methods
-        int in = 140;  //first method
+        int in = 140;
         int out = 2;
         int expected = rubleToEuro(in);
         boolean passed = expected == out;
-        int in2 = 120; //second method
+        int in2 = 120;
         int out2 = 2;
         int expected2 = rubleToDollar(in2);
         boolean passed2 = expected2 == out2;
         System.out.println("140 rubles into Euro are 2. Test result: <" + passed + ">");
         System.out.println("120 rubles into Dollars are 2.Test result <" + passed2 + ">");
-
     }
 
     public static int rubleToEuro(int value) {

@@ -1,5 +1,5 @@
 package ru.job4j.array;
-/*
+/**
 Двухмерный массив. Циклы.
  */
 public class MatrixLoop {

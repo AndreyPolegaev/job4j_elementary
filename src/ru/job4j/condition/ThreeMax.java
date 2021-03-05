@@ -18,6 +18,5 @@ public class ThreeMax {
         System.out.println(max(100, 1, 100));
         System.out.println(max(100, 100, 1));
         System.out.println(max(10, -5, 40));
-
     }
 }

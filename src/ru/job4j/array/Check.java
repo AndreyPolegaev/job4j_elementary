@@ -1,5 +1,5 @@
 package ru.job4j.array;
-/*
+/**
 Проверка однородности массива boolean[]. {true, true, true} ->true. {false, true, true} -> false
  */
 public class Check {

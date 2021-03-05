@@ -12,6 +12,6 @@ public class ChessBoard {
     public static void main(String[] args) {
         System.out.println(way(1, 3, 4, 0));
         System.out.println(way(6, 7, 1, 2));
-        System.out.println(way(5, 0, 1, 0)); // не по диагонали -> 0
+        System.out.println(way(5, 0, 1, 0));
     }
 }

@@ -12,6 +12,5 @@ public class Max {
         System.out.println(rsl);
         rsl = max(10, 10);
         System.out.println(rsl);
-
     }
 }

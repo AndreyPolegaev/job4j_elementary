@@ -12,5 +12,4 @@ public class SqArea {
         double rsl = l * h;
         return rsl;
     }
-
 }

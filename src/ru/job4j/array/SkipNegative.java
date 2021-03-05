@@ -1,5 +1,5 @@
 package ru.job4j.array;
-/*
+/**
 Метод skip должен заменить отрицательные значения в массиве на ноль.
  */
 public class SkipNegative {

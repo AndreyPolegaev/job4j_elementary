@@ -1,9 +1,8 @@
 package ru.job4j.condition;
-/*
+/**
 Акция на кофе: посетитель купил count чашек кофе, от n кол-ва кофе действует акция + 1 чашка бесплатно за каждые n штук.
 Например купил 12 чашек, получил всего 14 чашек кофе.
  */
-
 public class Coffe {
     public static int countCup(int count, int n) {
         int sum = 0;

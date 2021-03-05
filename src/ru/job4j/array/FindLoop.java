@@ -1,5 +1,9 @@
 package ru.job4j.array;
-// Поиск индекса элемента в массиве
+/**
+ * Поиск индекса элемента в массиве.
+ * Поиск индекса элемента в диапазоне. data - массив,  el - искомый элемент, start - индекс, с которого начинаем поиск
+ * finish - индекс, которым заканчиваем поиск.
+ */
 public class FindLoop {
     public static int indexOf(int[] data, int el) {
         int rsl = -1;
@@ -11,11 +15,7 @@ public class FindLoop {
         }
         return rsl;
     }
-    /*
-    Поиск индекса элемента в диапазоне. data - массив,  el - искомый элемент, start - индекс, с которого начинаем поиск,
 
-    finish - индекс, которым заканчиваем поиск.
-     */
     public static int indexOf(int[] data, int el, int start, int finish) {
         int rsl = -1;
         for (int i = start; i <= finish; i++) {
